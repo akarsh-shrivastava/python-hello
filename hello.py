@@ -1,1 +1,2 @@
-print("Hello, World!")
+with open ("message.txt") as f:
+  print(f.read())
